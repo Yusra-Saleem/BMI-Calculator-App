@@ -113,7 +113,7 @@ export default function BmiCalculator() {
             />
           </div>
           {/* Button to calculate BMI */}
-          <Button onClick={calculateBmi} className="text-md text-white bg-indigo-950 rounded font-semibold">Calculate</Button>
+          <Button onClick={calculateBmi} className="text-md text-white bg-indigo-950  hover:bg-gray-600 rounded font-semibold">Calculate</Button>
           {/* Display error message if any */}
           {error && <div className="text-red-700 text-center">{error}</div>}
           {/* Display BMI result if available */}
